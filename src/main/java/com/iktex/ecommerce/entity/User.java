@@ -19,10 +19,13 @@ public class User {
     @Column(name="name", nullable = true)
     private String name;
 
-    @Column(name="username", nullable = true)
-    private String username;
+    @Column(name="surname", nullable = true)
+    private String surname;
+
+
     @Column(name="email", nullable = true)
     private String email;
+
     @Column(name="password", nullable = true)
     private String password;
 
